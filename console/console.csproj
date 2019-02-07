@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="c1">
+      <HintPath>..\c1\bin\Debug\netcoreapp2.1\c1.dll</HintPath>
+    </Reference>
+    <Reference Include="c2">
+      <HintPath>..\c2\bin\Debug\netcoreapp2.1\c2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
